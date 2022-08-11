@@ -1,0 +1,11 @@
+int arrangeCoins(int n){
+    int i=0;
+    scanf("%d",&n);
+    while(n>=0)
+    {
+        i++;
+        n=n-i;
+    }
+    return i-1;
+
+}
