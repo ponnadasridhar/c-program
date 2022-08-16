@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void) {
+    int n=0,i,arr[4];
+	for(i=0;i<4;i++)
+	{
+	    scanf("%d",&arr[i]);
+	    if(arr[i]>=10)
+	    {
+	        n += 1;
+	    }
+	}
+	printf("%d",n);
+	return 0;
+}
